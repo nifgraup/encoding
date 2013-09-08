@@ -1,7 +1,6 @@
 # Encoding
 
-**encoding** is a simple wrapper around [node-iconv](https://github.com/bnoordhuis/node-iconv) and [iconv-lite](https://github.com/ashtuchkin/iconv-lite/) to convert strings from one encoding to another. If node-iconv is not available for some reason,
-iconv-lite will be used instead of it as a fallback.
+**encoding** is a simple wrapper around [iconv-lite](https://github.com/ashtuchkin/iconv-lite/) to convert strings from one encoding to another.
 
 ## Install
 
@@ -32,18 +31,6 @@ Example
     var result = encoding.convert("ÕÄÖÜ", "Latin_1");
     console.log(result); //<Buffer d5 c4 d6 dc>
 
-## iconv support
-
-By default only iconv-lite is bundled. If you need node-iconv support, you need to add it
-as an additional dependency for your project:
-
-    ...,
-    "dependencies":{
-        "encoding": "*",
-        "iconv": "*"
-    },
-    ...
-
-## License
+ ## License
 
 **MIT**

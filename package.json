@@ -9,10 +9,13 @@
   "repository": "https://github.com/andris9/encoding.git",
   "author": "Andris Reinman",
   "license": "MIT",
-  "dependencies":{
-    "iconv-lite": "~0.2.11"
+  "dependencies": {
+    "iconv-lite": "~0.2.11",
+    "mime": "https://github.com/whiteout-io/node-mime/tarball/master",
+    "buffer-browserify": "https://github.com/whiteout-io/buffer-browserify/tarball/master",
+    "amdefine": ">=0.0.8"
   },
-  "devDependencies":{
+  "devDependencies": {
     "nodeunit": "~0.8.1"
   }
 }
