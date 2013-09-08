@@ -31,6 +31,10 @@ Example
     var result = encoding.convert("ÕÄÖÜ", "Latin_1");
     console.log(result); //<Buffer d5 c4 d6 dc>
 
- ## License
+## Known issues
+
+Due to the use of **iconv-lite**, only charsets supported by this library are supported!
+
+## License
 
 **MIT**
