@@ -12,7 +12,7 @@
   "dependencies": {
     "iconv-lite": "~0.2.11",
     "mime": "https://github.com/whiteout-io/node-mime/tarball/master",
-    "buffer-browserify": "https://github.com/whiteout-io/buffer-browserify/tarball/master",
+    "node-shims": "https://github.com/whiteout-io/node-shims/tarball/master",
     "amdefine": ">=0.0.8"
   },
   "devDependencies": {

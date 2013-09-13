@@ -4,7 +4,7 @@ if (typeof define !== 'function') {
 
 define(function(require) {
     var iconvLite = require('iconv-lite'),
-        Buffer = require('buffer-browserify').Buffer;
+        Buffer = require('node-shims').Buffer.Buffer;
 
     /**
      * Convert encoding of an UTF-8 string or a buffer
