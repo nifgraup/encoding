@@ -1,5 +1,5 @@
 var testCase = require('nodeunit').testCase,
-    encoding = require("./encoding");
+    encoding = require("..");
 
 exports["General tests"] = {
     "From UTF-8 to Latin_1": function(test){

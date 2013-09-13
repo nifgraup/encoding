@@ -3,6 +3,8 @@ if (typeof define !== 'function') {
 }
 
 define(function(require) {
+    'use strict'; 
+    
     var iconvLite = require('iconv-lite'),
         Buffer = require('node-shims').Buffer.Buffer;
 

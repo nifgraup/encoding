@@ -2,9 +2,9 @@
   "name": "encoding",
   "version": "0.1.8-dev",
   "description": "Convert encodings, uses iconv by default and fallbacks to iconv-lite if needed",
-  "main": "encoding.js",
+  "main": "src/encoding.js",
   "scripts": {
-    "test": "nodeunit test.js"
+    "test": "nodeunit test/test.js"
   },
   "repository": "https://github.com/andris9/encoding.git",
   "author": "Andris Reinman",
