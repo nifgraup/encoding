@@ -2,7 +2,7 @@
   "name": "encoding",
   "version": "0.1.8-dev",
   "description": "Convert encodings, uses iconv by default and fallbacks to iconv-lite if needed",
-  "main": "index.js",
+  "main": "encoding.js",
   "scripts": {
     "test": "nodeunit test.js"
   },
