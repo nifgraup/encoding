@@ -10,7 +10,7 @@
   "author": "Andris Reinman",
   "license": "MIT",
   "dependencies": {
-    "iconv-lite": "~0.2.11",
+    "iconv-lite": "http://github.com/whiteout-io/iconv-lite/tarball/amd",
     "mime": "https://github.com/whiteout-io/node-mime/tarball/master",
     "node-shims": "https://github.com/whiteout-io/node-shims/tarball/master",
     "amdefine": ">=0.0.8"
