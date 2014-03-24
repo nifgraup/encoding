@@ -1,6 +1,6 @@
 {
   "name": "encoding",
-  "version": "0.1.8-dev",
+  "version": "0.2.0",
   "description": "Convert encodings, uses iconv by default and fallbacks to iconv-lite if needed",
   "main": "src/encoding.js",
   "scripts": {
