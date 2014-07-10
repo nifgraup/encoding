@@ -10,9 +10,9 @@
   "author": "Andris Reinman",
   "license": "MIT",
   "dependencies": {
-    "iconv-lite": "http://github.com/whiteout-io/iconv-lite/tarball/v0.3.0",
-    "mime": "https://github.com/whiteout-io/node-mime/tarball/v1.3.0",
-    "node-shims": "https://github.com/whiteout-io/node-shims/tarball/v0.1.1",
+    "iconv-lite": "git+https://github.com/nifgraup/iconv-lite#62229ddc32174c629f0eec052b2470c97837e14b",
+    "mime": "git+https://github.com/nifgraup/node-mime#1e40484273e8661f41f496532551aeb436bfa5af",
+    "node-shims": "git+https://github.com/nifgraup/node-shims#6d803c668577a0a0db5148ab20a10a4ea9b41abd",
     "amdefine": ">=0.0.8"
   },
   "devDependencies": {
